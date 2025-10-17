@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <javascript src="Atividade.js"></javascript>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Exercícios de Introdução a JavaScript</h1>
+    <p>Abra o console do navegador para ver os resultados dos exercícios.</p>
+    <script>
+        // EXERCÍCIOS DE INTRODUÇÃO A JAVASCRIPT
+        // QUESTÃO 1
+        let n1 = 10, n2 = 5;
+        console.log("1) Soma:", n1 + n2);
+        console.log("   Subtração:", n1 - n2);
+        console.log("   Multiplicação:", n1 * n2);
+        console.log("   Divisão:", n1 / n2);
+    </script>B
+    <script>
+        // QUESTÃO 2
+        let base = 5, altura = 8;
+        console.log("\n2) Área do retângulo:", base * altura);
+    </script>
+    <script>
+        // QUESTÃO 3
+        let nota1 = 7, nota2 = 5, nota3 = 9;
+        let media = (nota1 + nota2 + nota3) / 3;
+        console.log("\n3) Média:", media);
+        console.log(media >= 6 ? "Aprovado" : "Reprovado"); 
+    </script>
+    <script>
+        // QUESTÃO 4
+        let preco = 200;
+        let cupom = true;
+        if (cupom) preco *= 0.9;
+        console.log("\n4) Valor com desconto:", preco);
+    </script>
+    <script>
+        // QUESTÃO 5
+        let num = 11;
+        console.log("\n5) Número", num, "é", num % 2 === 0 ? "Par" : "Ímpar");
+    </script>
+    <script>
+        //QUESTÃO 6
+        let idade1 = 20, idade2 = 25;
+        if (idade1 > idade2) console.log("\n6) A primeira é mais velha");
+        else if (idade2 > idade1) console.log("\n6) A segunda é mais velha");
+        else console.log("\n6) Têm a mesma idade");
+    </script>
+    <script>
+        // QUESTÃO 7
+        let usuario = "admin", senha = "1234";
+        console.log("\n7)", (usuario === "admin" && senha === "1234") ? "Acesso permitido" : "Acesso negado");
+    </script>
+    <script>
+        // QUESTÃO 8
+        let nota = 7, faltas = 2;
+        console.log("\n8)", (nota >= 6 && faltas < 5) ? "Aprovado" : "Reprovado");
+    </script>
+    <script>
+        // QUESTÃO 9
+        let salario = 1800;
+        let novoSalario = salario < 2000 ? salario * 1.1 : salario * 1.05;
+        console.log("\n9) Novo salário:", novoSalario.toFixed(2));
+    </script>
+    <script>
+        // QUESTÃO 10
+        let dinheiro = 100, produto = 70;
+        let troco = dinheiro - produto;
+        if (troco >= 0) console.log("\n10) Compra feita! Troco:", troco);
+        else console.log("\n10) Dinheiro insuficiente.");
+    </script>
+    <script>
+        // QUESTÃO 11
+        let a = 15, b = 4;
+        console.log("\n11) Soma:", a + b);
+        console.log("    Subtração:", a - b);
+        console.log("    Multiplicação:", a * b);
+        console.log("    Divisão:", a / b);
+        console.log("    Módulo:", a % b);
+    </script>
+    <script>
+        // QUESTÃO 12
+        let resultado12 = 10 + 5 * 2;
+        console.log("\n12) Resultado:", resultado12);
+    </script>
+    <script>
+        // QUESTÃO 13
+        let x = 10;
+        x++;
+        x--;
+        console.log("\n13) Valor final:", x);
+    </script>
+    <script>
+        // QUESTÃO 14
+        let num14 = 20;
+        num14 += 5;
+        num14 *= 2;
+        num14 -= 10;
+        console.log("\n14) Resultado:", num14);
+    </script>
+    <script>
+        // QUESTÃO 15
+        console.log("\n15) 18 == '18' →", 18 == '18');
+        console.log("    18 === '18' →", 18 === '18');
+    </script>
+    <script>
+        // QUESTÃO 16
+        let nota16 = 7, faltas16 = 3;
+        console.log("\n16)", (nota16 >= 6 && faltas16 < 5) ? "Aprovado" : "Reprovado");
+    </script>
+    <script>
+        // QUESTÃO 17
+        let user17 = "admin", pass17 = "4321";
+        console.log("\n17)", (user17 === "admin" || pass17 === "1234") ? "Acesso permitido" : "Acesso negado");
+    </script>
+    <script>
+        // QUESTÃO 18
+        let ativo = false;
+        console.log("\n18) !ativo =", !ativo);
+    </script>
+    <script>
+        // QUESTÃO 19
+        let a19 = 5, b19 = 10, c19 = 15;
+        let resultado19 = (a19 + b19) * c19 > 100 || a19 * b19 < c19;
+        console.log("\n19) Resultado lógico:", resultado19);
+    </script>
+    <script>
+        // QUESTÃO 20
+        let dinheiro20 = 100, produto20 = 40;
+        let sobra = dinheiro20 - produto20;
+        if (sobra >= 50) console.log("\n20) Comprou dois produtos!");
+        else console.log("\n20) Comprou apenas um.");
+    </script>
+    <script>
+        // QUESTÃO 21
+        let num21 = 4;
+        console.log("\n21) Quadrado de", num21, "=", num21 ** 2);
+    </script>
+    <script>
+        // QUESTÃO 22
+        let a22 = 8, b22 = 10;
+        console.log("\n22) Maior número:", a22 > b22 ? a22 : b22);
+    </script>
+    <script>
+        // QUESTÃO 23
+        let n23 = 3;
+        console.log("\n23) Tabuada do", n23);
+        for (let i = 1; i <= 10; i++) {
+            console.log(`${n23} x ${i} = ${n23 * i}`);
+        }
+    </script>
+    <script>
+        // QUESTÃO 24
+        let idade24 = 17;
+        console.log("\n24)", idade24 >= 18 ? "Maior de idade" : "Menor de idade");
+    </script>
+    <script>
+        // QUESTÃO 25
+        let num25 = -7;
+        if (num25 > 0) console.log("\n25) Positivo");
+        else if (num25 < 0) console.log("\n25) Negativo");
+        else console.log("\n25) Zero"); 
+    </script>
+    <script>
+        // QUESTÃO 26
+        let=a1
+        while (a1=1400)[
+            a1=prompt("coloque um numero")
+        ]
+    </script>
+    <script> 
+
+    </script>
+    </body>
+   </html>
