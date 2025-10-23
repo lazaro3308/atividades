@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // ==========================================
+// 1. Contagem de 1 a 10
+// ==========================================
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+// ==========================================
+// 2. Contagem Regressiva
+// ==========================================
+let numero = parseInt(prompt("Digite um número:"));
+while (numero >= 0) {
+  console.log(numero);
+  numero--;
+}
+
+// ==========================================
+// 3. Tabuada Simples
+// ==========================================
+let n = parseInt(prompt("Digite um número para ver a tabuada:"));
+for (let i = 1; i <= 10; i++) {
+  console.log(`${n} x ${i} = ${n * i}`);
+}
+
+// ==========================================
+// 4. Somar Números de 1 a 100
+// ==========================================
+let soma = 0;
+for (let i = 1; i <= 100; i++) {
+  soma += i;
+}
+console.log("Soma dos números de 1 a 100:", soma);
+
+// ==========================================
+// 5. Somar Números Pares de 1 a 50
+// ==========================================
+let somaPares = 0;
+for (let i = 2; i <= 50; i += 2) {
+  somaPares += i;
+}
+console.log("Soma dos números pares de 1 a 50:", somaPares);
+
+// ==========================================
+// 6. Repetir Mensagem
+// ==========================================
+let mensagem = prompt("Digite uma mensagem:");
+let vezes = parseInt(prompt("Quantas vezes quer repetir?"));
+
+for (let i = 1; i <= vezes; i++) {
+  console.log(`${i}. ${mensagem}`);
+}
+</script>
+
+</body>
+</html>
